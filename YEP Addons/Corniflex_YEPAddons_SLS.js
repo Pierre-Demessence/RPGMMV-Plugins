@@ -4,7 +4,7 @@
  * Show locked skills and give information on how to unlock.
  * @author Corniflex
  *
- * @param ---Skill Learn---
+ * @param ---General---
  * @default
  *
  * @param Show Locked Skills
@@ -46,7 +46,7 @@ Corniflex.YEP.Param = Corniflex.YEP.Param   || {};
 //=============================================================================
 // Parameter Variables
 //=============================================================================
-Corniflex.Parameters = PluginManager.parameters('Corniflex_YEPAddons_SkillLearnSystem');
+Corniflex.Parameters = PluginManager.parameters('Corniflex_YEPAddons_SLS');
 
 
 Corniflex.YEP.Param.ShowOutlevel = eval(Corniflex.Parameters['Show Locked Skills']);

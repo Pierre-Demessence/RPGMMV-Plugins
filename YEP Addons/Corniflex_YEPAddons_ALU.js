@@ -4,7 +4,7 @@
  * Will show unlocked classes and unlocked skills.
  * @author Corniflex
  *
- * @param ---Class Learn---
+ * @param ---Class Change Core---
  * @default
  *
  * @param Enable Class List
@@ -24,7 +24,7 @@
  * @desc The pixel width of the class list if it appears.
  * @default 200
  *
- * @param ---Skill Learn Engine---
+ * @param ---Skill Learn System---
  * @default
  *
  * @param Show Skills Unlocked
@@ -44,7 +44,7 @@ Corniflex.YEP.Param = Corniflex.YEP.Param   || {};
 //=============================================================================
 // Parameter Variables
 //=============================================================================
-Corniflex.Parameters = PluginManager.parameters('Corniflex_YEPAddons_AftermathLevelUp');
+Corniflex.Parameters = PluginManager.parameters('Corniflex_YEPAddons_ALU');
 
 Corniflex.YEP.Param.ClassEnable = eval(Corniflex.Parameters['Enable Class List']);
 Corniflex.YEP.Param.ClassSing = String(Corniflex.Parameters['Class Text Singular']);
